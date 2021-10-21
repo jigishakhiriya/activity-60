@@ -1,0 +1,39 @@
+body{
+    text-align: center
+}
+h1{
+    font-size: 45px;
+     font-family: 'Rampart One', cursive;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+#Apps{
+    width: 100%;
+    height: 800px;
+    background-color: darksalmon;
+}
+#chatbot{
+    width: 100%;
+    height: 800px;
+    background-color: cadetblue;
+}
+#games{
+    width: 100%;
+    height: 800px;
+    background-color: burlywood;
+}
+#artist{
+    width: 100%;
+    height: 800px;
+    background-color: darkseagreen;
+}
+img{
+    transition: transform 2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
